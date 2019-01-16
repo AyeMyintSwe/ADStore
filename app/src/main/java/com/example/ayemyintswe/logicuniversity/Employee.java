@@ -36,8 +36,9 @@ public class Employee  extends HashMap<String, String> {
         } catch (Exception e) {
             JSONParser.access_token = "";
             Log.e("Login", e.toString());
+
         }
-        return 0;
+        return  0;
     }
 
     public static Employee ReadEmployee() {
